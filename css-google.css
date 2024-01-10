@@ -1,0 +1,79 @@
+.nav-bar{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 1em;
+}
+h1 {
+    color: black;
+    font-size: small;
+    font-weight: 1000;
+    display: inline-block;
+    text-align:right;
+}
+h2 {
+    color: black;
+    font-size: small;
+    font-weight: 1000;
+    display: inline-block;
+    text-align: right;
+}
+h3{
+    opacity: 0.3;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center
+}
+img {
+    display: block;
+    width: 30%;
+    margin: auto;
+  }
+.compte-google{
+    display: inline-block;
+}
+.extention-google{
+    display: inline-block;
+}
+.recherche{
+    display: inline-block;
+    text-align: center;
+    color: black;
+    padding-right: 30px;
+}
+.jai-de-la-chance{
+    display: inline-block;
+    text-align: center;
+    color: black;
+}
+.bas{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    color: black;
+}
+.zone-recherche{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.barre-de-recherche{
+    border: 1px solid black;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+}
+svg{
+    height: 24px;
+    width: 24px;
+    padding: 10px;
+}
+textarea{
+    outline: 0px none transparent;
+    resize: none;
+    border: none;
+    width: 100%;
+}
